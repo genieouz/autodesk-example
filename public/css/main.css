@@ -1,0 +1,236 @@
+html, body {
+  min-height: 100%;
+  height: 100%;
+}
+
+.fill {
+  height: calc(100vh - 100px);
+}
+
+body {
+  padding-top: 60px; /* space for the top nav bar */
+  margin-right: 30px;
+}
+
+#appBuckets {
+  overflow: auto;
+  width: 100%;
+  height: calc(100vh - 150px);
+}
+
+#forgeViewer {
+  width: 90%;
+}
+
+.modelSummaryToolbarButton {
+  background-image: url(/img/markup.png);
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Text {
+  background-image: url(/img/text.png);
+  background-size: 19px;
+  height: 22px;
+}
+
+.Circle{
+    background-image: url(/img/circle.png);
+    background-size: 19px;
+}
+
+.Rectangle{
+    background-image: url(/img/rectangle.png);
+    background-size: 19px;
+}
+
+.Cloud{
+    background-image: url(/img/cloud.png);
+    background-size: 19px;
+}
+
+.Arrow{
+    background-image: url(/img/arrow.png);
+    background-size: 19px;
+}
+
+.Freehand{
+    background-image: url(/img/drawing.png);
+    background-size: 19px;
+
+}
+
+.Polyline{
+    background-image: url(/img/polyline.png);
+    background-size: 19px;
+}
+
+.Polycloud{
+    background-image: url(/img/polycloud.png);
+    background-size: 19px;
+}
+
+.Save{
+  background-image: url(/img/save.png);
+  background-size: 19px;
+}
+
+.Display{
+  background-image: url(/img/display.png);
+  background-size: 19px;
+}
+
+.Exit{
+  background-image: url(/img/exit.png);
+  background-size: 19px;
+}
+
+.Style{
+  background-image: url(/img/style.png);
+  background-size: 19px;
+}
+.Annotation{
+  background-image: url(/img/annotation.png);
+  background-size: 19px;
+}
+@media (max-width: 640px) {
+  /* END MEDIA QUERY CSS */
+  .Text {
+    background-image: url(/img/text.png);
+    background-size: 25px;
+    height: 30px;
+  }
+  
+  .Circle{
+      background-image: url(/img/circle.png);
+      background-size: 25px;
+  }
+  
+  .Rectangle{
+      background-image: url(/img/rectangle.png);
+      background-size: 25px;
+  }
+  
+  .Cloud{
+      background-image: url(/img/cloud.png);
+      background-size: 25px;
+  }
+  
+  .Arrow{
+      background-image: url(/img/arrow.png);
+      background-size: 25px;
+  }
+  
+  .Freehand{
+      background-image: url(/img/drawing.png);
+      background-size: 25px;
+  
+  }
+  
+  .Polyline{
+      background-image: url(/img/polyline.png);
+      background-size: 25px;
+  }
+  
+  .Polycloud{
+      background-image: url(/img/polycloud.png);
+      background-size: 25px;
+  }
+  
+  .Save{
+    background-image: url(/img/save.png);
+    background-size: 25px;
+  }
+  
+  .Display{
+    background-image: url(/img/display.png);
+    background-size: 25px;
+  }
+  
+  .Exit{
+    background-image: url(/img/exit.png);
+    background-size: 25px;
+  }
+  
+  .Style{
+    background-image: url(/img/style.png);
+    background-size: 25px;
+  }
+  /* END MEDIA QUERY CSS */
+}
+#nextButton {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 1;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#prevButton {
+  position: absolute;
+  top: 5px;
+  left: 16px;
+  z-index: 1;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#pagesPreview{
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  height: 52%;
+  width: 10%;
+  right: 0px;
+}
+
+.thumbnail{
+  height: 100px;
+}
+
+/*.lmv-markup-gui-toolbar-content{
+  position: absolute;
+  left: 250%;
+  top: 0%;
+  background-color: green;
+  z-index: 999999999999;
+}*/
+
+.lmv-markup-gui-editMode span{
+  color: #f4f4f4;
+}
+
+.lmv-markup-gui-toolbar{
+  position: absolute;
+  top: 0%;
+  left: 8%;
+  background-color: rgba(34,34,34,.94);
+  box-shadow: 1px 3px 10px 0 rgba(0,0,0,.5);
+  color: #f4f4f4;
+  padding: 2%;
+}
+
+.Markups-Buttons-UI{
+  border: 1px solid lightgray;
+  background: white;
+  width: 30%;
+  margin-top: 2%;
+  margin-right: 3%;
+  display: inline-block;
+}
+.Markups-Select-UI{
+  border: 1px solid lightgray;
+  background: white;
+  width: 40%;
+  margin-top: 2%;
+  margin-right: 3%;
+  display: inline-block;
+}
+.Markups-Span-UI{
+  width: 40%;
+  margin-top: 2%;
+  margin-right: 3%;
+  display: inline-block;
+}
